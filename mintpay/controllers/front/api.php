@@ -1,12 +1,5 @@
 <?php
-/**
- * PrestaPay - A Sample Payment Module for PrestaShop 1.7
- *
- * Order Validation Controller
- *
- * @author Andresa Martins <contact@andresa.dev>
- * @license http://opensource.org/licenses/afl-3.0.php
- */
+
 
 class MintPayApiModuleFrontController extends ModuleFrontController
 {

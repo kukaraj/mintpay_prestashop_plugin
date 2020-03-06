@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <module>
     <name>mintpay</name>
-    <displayName><![CDATA[MintPay]]></displayName>
+    <displayName><![CDATA[mintpay]]></displayName>
     <version><![CDATA[1.0]]></version>
-    <description><![CDATA[Sample Payment module developed for learning purposes.]]></description>
-    <author><![CDATA[Andresa Martins]]></author>
+    <description><![CDATA[mintpay payment gateway]]></description>
+    <author><![CDATA[Algoredge]]></author>
     <tab><![CDATA[payments_gateways]]></tab>
 	<confirmUninstall><![CDATA[Are you sure you want to uninstall this module?]]></confirmUninstall>
     <is_configurable>1</is_configurable>

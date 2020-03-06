@@ -1,17 +1,10 @@
 <?php
-/**
- * PrestaPay - A Sample Payment Module for PrestaShop 1.7
- *
- * This file is the declaration of the module.
- *
- * @author Andresa Martins <contact@andresa.dev>
- * @license http://opensource.org/licenses/afl-3.0.php
- */
+
 if (!defined('_PS_VERSION_')) {
     exit;
 }
 
-class MintPay extends PaymentModule
+class Mintpay extends PaymentModule
 {
     private $_html = '';
     private $_postErrors = array();
@@ -28,13 +21,13 @@ class MintPay extends PaymentModule
         $this->name                   = 'mintpay';
         $this->tab                    = 'payments_gateways';
         $this->version                = '1.0';
-        $this->author                 = 'MintPay.lk';
+        $this->author                 = 'Algoredge';
         $this->controllers            = array('payment', 'validation');
         $this->currencies             = true;
         $this->currencies_mode        = 'checkbox';
         $this->bootstrap              = true;
-        $this->displayName            = 'MintPay';
-        $this->description            = 'Sample Payment module developed for learning purposes.';
+        $this->displayName            = 'mintpay';
+        $this->description            = 'mintpay Payment Gateway';
         $this->confirmUninstall       = 'Are you sure you want to uninstall this module?';
         $this->ps_versions_compliancy = array('min' => '1.7.0', 'max' => _PS_VERSION_);
 
@@ -127,7 +120,7 @@ class MintPay extends PaymentModule
         // Init Fields form array
         $fieldsForm[0]['form'] = [
             'legend' => [
-                'title' => $this->l('MintPay Settings'),
+                'title' => $this->l('mintpay Settings'),
             ],
             'input' => [
                 [
