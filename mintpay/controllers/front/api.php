@@ -93,7 +93,7 @@ class MintPayApiModuleFrontController extends ModuleFrontController
         $resp = json_decode($respStr, TRUE);
 
 
-        die(Context::getContext()->link->getModuleLink('mintpay', 'validation', ['orederId'=>$cart->id, 'hash'=>$orderHash]));
+        //die(Context::getContext()->link->getModuleLink('mintpay', 'validation', ['orederId'=>$cart->id, 'hash'=>$orderHash]));
 
         if ($resp === null) {
             //throw new Twocheckout_Error("cURL call failed", "403");
